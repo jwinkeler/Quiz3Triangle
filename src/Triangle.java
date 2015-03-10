@@ -36,6 +36,7 @@ public class Triangle extends GeometricObject {
 		double sideC = this.side3;
 		return(sideA+sideB+sideC);
 	}
+	@Override
 	public String toString(){
 		String sideA =Double.toString(this.side1);
 		String sideB = Double.toString(this.side2);
